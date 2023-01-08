@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium';
+    display: grid;
+    place-items: center;
+    background-image: url(images/background.png)
+    
+}
+.option{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: aliceblue;
+    align-items: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+    margin-top: 100px;
+}
+input, select, textarea{
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+
+button {
+    padding: 15px;
+background-color: #536dff;
+color: rgb(255, 255, 255);
+font-size: 18px;
+border: 0;
+outline: none;
+cursor: pointer;
+width: 150px;
+margin: 20px auto 0;
+border-radius: 30px;
+}
+select {
+    background-color:  transparent;
+  
+ }
+ .option {
+    border-radius: 5px;
+  }
+  button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(rgba(11, 116, 253, 0.4),
+     rgb(70, 0, 235));
+  }
+  form input[name="Prenom"]::placeholder {
+    color: black;
+  }
+  
+  form input[name="Email"]::placeholder {
+    color: black;
+  }
+  
+  form textarea[name="Message"]::placeholder {
+    color: black;
+  }
+ 
+ 
+  
+  
+  
+
+@media only screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+    body{
+        background-image:linear-gradient(#000e2e,
+        #004f5a);
+    }
+  }
+  form input[name="Prenom"]::placeholder {
+    color: aliceblue;
+  }
+  
+  form input[name="Email"]::placeholder {
+    color: aliceblue;
+  }
+  
+  form textarea[name="Message"]::placeholder {
+    color: aliceblue;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
