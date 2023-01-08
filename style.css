@@ -206,6 +206,7 @@ h2{
 .useful-links{
     width: auto;
     position: unset;
+    margin-right: -115px;
 }
 .menu{
     width: 18px;
